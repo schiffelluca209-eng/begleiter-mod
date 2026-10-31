@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "begleiter",
+  "version": "${version}",
+  "name": "Begleiter",
+  "description": "Ein Begleiter mit eigenem Skin, der dir folgt, schlaeft, Angst hat, bei Monstern auf dich klettert und per Befehl privat mit dir chattet.",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.begleiter.BegleiterMod"],
+    "client": ["de.begleiter.BegleiterClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

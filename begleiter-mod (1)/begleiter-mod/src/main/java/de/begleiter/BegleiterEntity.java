@@ -124,7 +124,7 @@ public class BegleiterEntity extends PathfinderMob {
                 fearCooldown = 20 * 15;
             }
             if (best < 49 && !isPassenger()) { // näher als 7 Blöcke: auf den Spieler klettern
-                startRiding(owner, true);
+                startRiding(owner, true, true);
             }
         } else if (isPassenger()) {
             calmTicks++;
